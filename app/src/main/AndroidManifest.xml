@@ -9,7 +9,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.HelloKottin0427">
-        <activity android:name=".MainActivity">
+        <activity android:name=".BmiKotlinActivity"></activity>
+        <activity android:name=".BmiJavaActivity" />
+        <activity
+            android:name=".BmiActivity"
+            android:label="BmiJavaActvity" />
+        <activity
+            android:name=".BmiKotlinActiviy"
+            android:label="BmikotlinActvity" />
+        <activity
+            android:name=".MainActivity"
+            android:label="BMI caculation">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
